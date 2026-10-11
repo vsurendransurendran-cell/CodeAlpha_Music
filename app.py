@@ -17,7 +17,7 @@ st.set_page_config(
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "models", "best_bach_lstm.keras")
+MODEL_PATH = os.path.join(BASE_DIR, "best_bach_lstm.keras")
 VOCAB_PATH = os.path.join(BASE_DIR, "outputs", "vocab.json")
 EXISTING_MIDI = os.path.join(
     BASE_DIR, "outputs", "generated_bach.mid"
